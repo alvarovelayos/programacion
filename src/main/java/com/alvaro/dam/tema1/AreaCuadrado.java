@@ -13,6 +13,7 @@ public class AreaCuadrado {
 		
 		System.out.println("Introduce el lado del cuadrado");
 		lado = entrada.nextDouble();
+		entrada.close();
 		
 		area = lado * lado;
 		System.out.println("El area del cuadro es: " + area);
