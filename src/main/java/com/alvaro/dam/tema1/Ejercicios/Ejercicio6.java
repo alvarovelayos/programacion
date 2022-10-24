@@ -12,10 +12,13 @@ public class Ejercicio6 {
 		double porcentaje;
 		
 		Scanner entrada = new Scanner(System.in);
+		
 		System.out.println("Introduce el precio del articulo");
 		precioArticulo = entrada.nextDouble();
+		
 		System.out.println("Introduce el precio con descuento");
 		precioVentaReal = entrada.nextDouble();
+		entrada.close();
 		
 		descuento = precioArticulo - precioVentaReal;
 		porcentaje = (descuento * 100) / precioArticulo; 
