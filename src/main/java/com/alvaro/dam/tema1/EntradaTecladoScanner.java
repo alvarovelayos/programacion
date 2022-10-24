@@ -12,6 +12,7 @@ public class EntradaTecladoScanner {
 		System.out.print("Introduce tu nombre: ");
 
 		nombre = entrada.nextLine();
+		entrada.close();
 		System.out.println("Hola " + nombre);
 	}
 
